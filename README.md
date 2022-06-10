@@ -1,9 +1,20 @@
 # Design Pattern
-Nếu bạn thực sự nghiêm túc muốn đi theo con đường trở thành một Developer giỏi một trong những kiến thức bạn phải có chính là Design Patterns
+ĐỪNG THEO ĐUỔI, HÃY THU HÚT!
 ## Khái niệm
-- Design Patterns (mẫu thiết kế) là một kĩ thuật trong lập trình hướng đối tượng và được sử dụng thường xuyên trong các ngôn ngữ OOP như Java,C#,Kotlin... Nó cũng cấp cho ta các mẫu (Pattern) để giải quyết các vẫn đề thường gặp, tuy bạn có thể tự nghĩ ra nhưng nó có thể không phải là tối ưu. Design pattern sẽ giúp chúng ta giải quyết những vấn đề này được tối ưu nhất.
-- Design Patterns không phụ thuộc vào ngôn ngữ nào cả bạn có thể áp dụng với phần lớn những ngôn ngữ lập trình hiện nay.
-- Bạn nghiêm túc muốn trở thành một Dev giỏi thì không thể bỏ qua Design Pattern
+- Design pattern là các giải pháp tổng thể đã được tối ưu hóa, được tái sử dụng cho các vấn
+đề phổ biến trong thiết kế phần mềm, đặc biệt là trong lập trình hướng đối tượng OOP,
+mà chúng ta thường gặp phải hàng ngày.
+- Design patterns là một kỹ thuật trong lập trình hướng đối tượng, không phải là ngôn ngữ
+cụ thể nào cả, nó là một kĩ thuật lập trình. Nó có thể thực hiện được ở phần lớn các ngôn
+ngữ lập trình, chẳng hạn như Java, C#, thậm chí là Javascript hay bất kỳ ngôn ngữ lập
+trình nào khác Nó khá quan trọng và mọi lập trình viên muốn giỏi đều phải biết, nó cung
+cấp cho bạn các “mẫu thiết kế”, giải pháp để giải quyết các vấn đề chung, thường gặp
+trong lập trình. Các vấn đề mà bạn gặp phải có thể bạn sẽ tự nghĩ ra cách giải quyết nhưng
+có thể nó chưa phải là tối ưu.
+- Design Pattern giúp bạn giải quyết vấn đề một cách tối ưu nhất, cung cấp cho bạn các giải
+pháp trong lập trình OOP. Muốn học Design Pattern, bạn cần phải có kiến thức vững chắc
+về lập trình, đặc biệt là lập trình OOP. Hiểu và áp dụng được kiến thức về OOP sẽ giúp
+bạn tiếp cận và nâng cao trình độ với Design Pattern dễ dàng và hiệu quả hơn
 ## Tại sao chúng ta nên biết và sử dụng ?
 - Tái sử dụng lại code và dễ mở rộng
 - Là những giải pháp đã được tối ưu hóa và chúng ta có thể sử dụng  tùy theo trường hợp mà không cần suy nghĩ.
@@ -11,7 +22,10 @@ Nếu bạn thực sự nghiêm túc muốn đi theo con đường trở thành 
 - Đương nhiên code sẽ trở nên dễ đọc và dễ hiểu kèm theo đó là dễ bảo trì nâng cấp về sau.
 - Tiết kiệm thời gian làm việc với code của các dev khác.
 ## Phân loại Design Patterns
-- Trong cuốn sách Design Patterns – Elements of Reusable Object-Oriented Software - của 4 tác giả Erich Gamma, Richard Helm, Ralph Johnson và John Vlissides có 23 mẫu được định nghĩa  bên trong và chia thành 3 nhóm.
+Hệ thống các mẫu design pattern hiện nay rất nhiều, nhưng thường tóm gọn bằng 23 mẫu
+được định nghĩa trong cuốn “Design patterns Elements of Reusable Object Oriented
+Software”. Hệ thống các mẫu design pattern được chia thành 3 nhóm, được phân loại theo
+mục đích sử dụng:
 ### Creational Patterns (Nhóm khởi tạo)
 - Bao gồm 5 mẫu : Factory Method, 
 Abstract Factory, 
@@ -36,6 +50,6 @@ Iterator,
 Mediator, Memento, Observer, State, Strategy và Visitor
 - Cung cấp giải pháp để thực hiện các hành vi của đối tượng cũng như giữa các object với nhau.
 ## Note : Nếu các bạn muốn học Design Pattern tốt nhất các bạn cần nắm chắc được những kiến thức sau.
-- Lập trình hướng đối tượng cơ bản nhất : hiểu đối tượng là gì? thuộc tính, hàm ...
+- Lập trình hướng đối tượng cơ bản nhất : Hiểu hướng đối tượng là gì? Thuộc tính, hàm ...
 - 4 Đặc tính cơ bản nhất của OOP: Kế thừa, Đa hình, Trừu tượng, Đóng gói.
 - Hiểu hai khái niệm về interface và abstract class, nắm được điểm giống và khác nhau giữa hai thứ này.
